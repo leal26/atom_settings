@@ -1,0 +1,33 @@
+"*":
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "autocomplete-plus"
+      "autocomplete-snippets"
+      "atom-beautify"
+      "kite"
+      "spell-check"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 16
+    tabLength: 4
+  "exception-reporting":
+    userId: "653b1bd4-b358-4885-ac78-b30df6294135"
+  kite:
+    editorMetricsEnabled: "yes"
+  "linter-flake8":
+    flakeErrors: true
+    ignoreErrorCodes: [
+      "F401"
+      "E226"
+      "E251"
+    ]
+  "linter-ui-default":
+    panelHeight: 339
+    showPanel: true
+  "python-autopep8":
+    formatOnSave: true
+  welcome:
+    showOnStartup: false
